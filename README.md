@@ -26,7 +26,7 @@
       * [Dependency Injection](#Dependency-Injection)
       * [Declare global values](#Declare-global-values)
    * [Rxjs](#Rxjs)
-   	* [Subject](#Subject)
+      * [Subject](#Subject)
    * [Pipes](#Pipes)
    * [Directives](#Directives)
    * [Animations](#Animations)
