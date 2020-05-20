@@ -25,6 +25,8 @@
       * [HttpClient](#HttpClient)
       * [Dependency Injection](#Dependency-Injection)
       * [Declare global values](#Declare-global-values)
+   * [Rxjs](#Rxjs)
+   	* [Subject](#Subject)
    * [Pipes](#Pipes)
    * [Directives](#Directives)
    * [Animations](#Animations)
@@ -456,6 +458,29 @@ providers: [{provide: CONTROLS_GLOBAL_CONFIG, useValue: {firstGlobalValue : 'Som
 usage (for example in component)
 ```ts
 constructor(@Optional() @Inject(CONTROLS_GLOBAL_CONFIG) globalVlues: ControlsConfig) {
+```
+# Rxjs 
+
+_[Documentation](https://rxjs-dev.firebaseapp.com/guide/overview)_
+
+## Subject
+
+Create New Service and add 
+```ts 
+import Subject from 'rxjs/Subject'
+const SampleName = new Subject();
+```
+
+To send / emit data use next()
+```ts
+this.service.SampleName.next(DATA);
+```
+
+To Subscribe use 
+```ts
+this.service.SampleName.subscribe( (DATA: data) => {
+	/* Business Logic */
+})
 ```
 
 # Pipes
