@@ -1,5 +1,4 @@
 # Angular Cheatsheet
-Set of basic functionalities from Angular in one place. Thanks to http://foreach.pl for contribute
 
 **Check also other Cheatsheets from @delprzemo:**
 
